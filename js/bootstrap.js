@@ -2364,7 +2364,20 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery); 
-  var slideIndex = 1;
+ 
+  // SCROLLSPY DATA-API
+  // ==================
+
+  $(window).on('load.bs.scrollspy.data-api', function () {
+    $('[data-spy="scroll"]').each(function () {
+      var $spy = $(this)
+      Plugin.call($spy, $spy.data())
+    })
+  })
+
+}(jQuery); 
+
+var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -2390,14 +2403,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
-  // SCROLLSPY DATA-API
-  // ==================
 
-  $(window).on('load.bs.scrollspy.data-api', function () {
-    $('[data-spy="scroll"]').each(function () {
-      var $spy = $(this)
-      Plugin.call($spy, $spy.data())
-    })
-  })
 
-}(jQuery);
