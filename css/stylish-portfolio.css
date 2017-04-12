@@ -195,7 +195,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover; 
-    text-outline: 2px 2px #39ba9e;
+    text-shadow: 2px 2px #3b84f9;
    
 }
 
@@ -228,9 +228,7 @@ hr.small {
 }
 
 /* Map */
-
-.map {
-    height: 500px; 
+ 
     * {box-sizing:border-box}
 
 /* Slideshow container */
