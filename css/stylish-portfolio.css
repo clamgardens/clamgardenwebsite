@@ -160,8 +160,8 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    color: #39ba9e; 
-  text-shadow: ;
+    color: white; 
+  text-shadow: 2px 2px #40e5b3;
 }
 
 /* About */
@@ -189,13 +189,12 @@ hr.small {
     display: table;
     width: 100%;
     height: 400px;
-    color: #fff;
     background: url( http://honest-food.net/wp-content/uploads/2014/06/western-littleneck-clams.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover; 
-    text-shadow: 2px 2px #3b84f9;
+    color: #3b84f9;
    
 }
 
