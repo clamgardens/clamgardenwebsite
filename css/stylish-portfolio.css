@@ -213,6 +213,7 @@ blockquote {
     background-size: cover;
     -o-background-size: cover; 
     color: #fc5a32;
+    text-outline: #ffffff;
    
 }
 
