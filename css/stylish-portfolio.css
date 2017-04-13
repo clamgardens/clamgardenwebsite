@@ -168,6 +168,7 @@ hr.small {
 
 .about {
 padding:  50px 0; 
+font-family: "lucida Console";   
 }
 blockquote {
   background: #f9f9f9;
@@ -214,6 +215,7 @@ blockquote {
     -o-background-size: cover; 
     color: #fc5a32;
     text-outline: #ffffff;
+   
    
 }
 
