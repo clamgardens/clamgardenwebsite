@@ -194,11 +194,11 @@ font-size: 35px;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover; 
-    color: #fc5a32;
-    text-outline: #ffffff;
-   
-   
 }
+    
+p  { color: #fc5a32;
+    text-outline: #ffffff;
+   }
 
 /* Portfolio */
 
