@@ -167,6 +167,8 @@ hr.small {
 /* About */
 
 .about
+padding { 50px
+}
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -216,7 +218,7 @@ blockquote:after {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover; 
-    color: #3b84f9;
+    color: #fc5a32;
    
 }
 
