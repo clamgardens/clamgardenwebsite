@@ -168,7 +168,7 @@ hr.small {
 
 .about {
 padding:  50px 0; 
-font-size: 50px;
+font-size: 70px;
 }
 
 /* Services */
@@ -194,7 +194,7 @@ font-size: 50px;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover; 
-    text-shadow: white;
+    text-shadow: #ffffff;
 }
     
 
