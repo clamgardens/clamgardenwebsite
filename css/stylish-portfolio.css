@@ -193,8 +193,8 @@ font-size: 70px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover; 
-    text-shadow: #ffffff;
+    -o-background-size: cover;
+    -webkit-text-stroke: 1px white;
 }
     
 
