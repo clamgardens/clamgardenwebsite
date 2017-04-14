@@ -309,9 +309,9 @@ font-size: 70px;
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 10s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 10s;
 }
 
 @-webkit-keyframes fade {
@@ -322,17 +322,6 @@ font-size: 70px;
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
-}
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
 }
 
 /* Footer */
