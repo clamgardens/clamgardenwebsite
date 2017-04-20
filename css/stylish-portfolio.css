@@ -217,6 +217,9 @@ font-size: 70px;
 
 .img-portfolio:hover {
     opacity: 0.8;
+} 
+.fa { 
+    display:inline;
 }
 
 /* Call to Action */
